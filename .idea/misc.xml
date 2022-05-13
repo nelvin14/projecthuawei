@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable-anydpi/newimage.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable-v24/splashicon_foreground.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/bground_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/edittext_border.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/gradient.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1785" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/ic_medassist.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/ic_medassist_3.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/icon.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/meddicon_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/nurse_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/splashicon_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/starticon_background.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/drawable/starticon_foreground.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/layout/activity_loginpage.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/layout/activity_splashscreen.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/bground.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/bground_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/meddicon.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/meddicon_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/nurse.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/nurse_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/splashicon.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/splashicon_round.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/starticon.xml" value="0.1355" />
+        <entry key="..\:/Users/Nelvin/AndroidStudioProjects/MedAssist/app/src/main/res/mipmap-anydpi-v26/starticon_round.xml" value="0.1355" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

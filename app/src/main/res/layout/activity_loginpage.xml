@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage"
+    android:background="@drawable/gradient"
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="200dp"
+        android:layout_height="206dp"
+        android:src="@mipmap/nurse"
+        android:background="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+         />
+
+
+    <EditText
+        android:id="@+id/edit1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageview"
+        app:layout_constraintLeft_toLeftOf="@id/imageview"
+        app:layout_constraintRight_toRightOf="@id/imageview"
+        android:hint="   Enter Email id  "
+        android:background="@drawable/edittext_border"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:id="@+id/edit2"
+        android:background="@drawable/edittext_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edit1"
+        app:layout_constraintRight_toRightOf="@id/edit1"
+        app:layout_constraintLeft_toLeftOf="@id/edit1"
+        android:layout_marginTop="10dp"
+        android:hint="   Enter password   "
+        android:textColorHint="@color/white"
+        />
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edit2"
+        app:layout_constraintLeft_toLeftOf="@id/edit2"
+        app:layout_constraintRight_toRightOf="@id/edit2"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="LOGIN"
+        android:backgroundTint="@color/blue"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
