@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+   android:background="@drawable/redwhite">
+
+    <ImageButton
+        android:id="@+id/accountbutton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="46dp"
+        android:onClick="thirdActivity"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/accountsymbol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Welcome to"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="113dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
+        android:text="MedAssist"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/cartbutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/cornerround"
+        android:src="@drawable/cartsymbol"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/scanbutton"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/scanbutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/cornerround"
+        android:src="@drawable/scansymbol"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/cartbutton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        android:text="       CART"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@id/cartbutton"
+        app:layout_constraintRight_toRightOf="@id/cartbutton"
+        app:layout_constraintTop_toBottomOf="@+id/cartbutton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/scanbutton"
+        android:layout_marginTop="4dp"
+        android:text="        SCAN"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@id/scanbutton"
+        app:layout_constraintRight_toRightOf="@id/scanbutton"
+        app:layout_constraintTop_toBottomOf="@+id/scanbutton" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="288dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/edittext_border"
+        android:hint="     Search by name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/findbutton"
+        android:layout_width="279dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="@color/red"
+        android:text="SEARCH"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageButton
+        android:id="@+id/storebutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/cornerround"
+        android:src="@drawable/medstore"
+        app:layout_constraintTop_toBottomOf="@+id/cartbutton"
+        tools:layout_editor_absoluteX="104dp"
+        app:layout_constraintLeft_toLeftOf="@id/cartbutton"
+        app:layout_constraintRight_toRightOf="@id/cartbutton"/>
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:text="           NEARBY STORES"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/storebutton"
+        app:layout_constraintRight_toRightOf="@id/storebutton"
+        app:layout_constraintTop_toBottomOf="@id/storebutton" />
+
+    <ImageButton
+        android:id="@+id/libbutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/cornerround"
+        android:src="@drawable/library"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@id/scanbutton"
+        app:layout_constraintRight_toRightOf="@id/scanbutton"
+        app:layout_constraintTop_toBottomOf="@+id/scanbutton" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARY"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/libbutton"
+        app:layout_constraintRight_toRightOf="@id/libbutton"
+        app:layout_constraintTop_toBottomOf="@id/libbutton"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

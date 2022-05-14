@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MedAssist</string>
+    <string name="savebutton">savebutton</string>
 </resources>
