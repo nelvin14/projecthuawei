@@ -6,14 +6,14 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     tools:context=".splashscreen"
-    android:background="#040404"
+    android:background="@color/red"
     >
 
     <ImageView
         android:id="@+id/image10"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/ic_medassist" />
+        android:src="@drawable/redsplash" />
 
 
 </LinearLayout>

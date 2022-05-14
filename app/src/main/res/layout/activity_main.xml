@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/redback"
+    android:orientation="vertical">
 
-    <TextView
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:ems="14"
+        android:hint=" Email"
+        android:background="@drawable/edittext_border"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@color/black"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+       android:layout_marginTop="30dp"
+        android:hint=" Password"
+        android:ems="14"
+        android:background="@drawable/edittext_border"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:ems="14"
+        android:background="@drawable/edittext_border"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"/>
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="30dp"
+        android:text="SIGN UP"
+        android:backgroundTint="@color/red"
+        android:layout_gravity="center"
+        android:textCursorDrawable="@color/black"
+        />
+</LinearLayout>

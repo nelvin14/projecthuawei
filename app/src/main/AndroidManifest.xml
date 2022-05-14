@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/starticon"
+        android:icon="@mipmap/redlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/starticon_round"
+        android:roundIcon="@mipmap/redlogo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MedAssist">
         <activity
