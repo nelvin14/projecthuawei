@@ -18,4 +18,9 @@ public class resultspage extends AppCompatActivity {
         Intent cart=new Intent(this,purchasepage.class);
         startActivity(cart);
     }
+    public void resultSave(View view4)
+    {
+        Intent libwd=new Intent(this,library.class);
+        startActivity(libwd);
+    }
 }

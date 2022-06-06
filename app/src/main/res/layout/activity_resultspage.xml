@@ -41,55 +41,45 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="254dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginBottom="348dp"
         android:text="DESCRIPTION"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="413dp"
-        android:layout_height="328dp"
+        android:layout_width="425dp"
+        android:layout_height="245dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/red">
+            android:background="@drawable/textbox"
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="350dp"
-                android:layout_height="500dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/textbox"
                 android:paddingLeft="30dp"
                 android:paddingTop="30dp"
-                android:text="The details about medicine\nThe medicine
-is used for the following purpose...
-........................\n................................\n..
-.....................\n...........................\n............
-...............\n.......................\n....................\n
-...................\n
-.......................\n
-.......................\n
-........................\n
-........................\n
-.........................\n
-.........................\n
-.........................\n"
+                android:text="The details about medicine.\nThe medicine is used for the \nfollowing purpose\n_____________\n_____________\n___________\n__________"
                 android:textColor="@color/white"
                 android:textSize="15dp" />
+
+
         </LinearLayout>
     </ScrollView>
 
@@ -97,12 +87,29 @@ is used for the following purpose...
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
         android:backgroundTint="@color/red"
         android:onClick="purchaseW"
         android:text="PURCHASE"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/black"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="resultSave"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

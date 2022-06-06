@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cartlist">
+    tools:context=".cartlist"
+    android:background="@color/red">
 
     <TextView
         android:id="@+id/textView15"
@@ -13,7 +14,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:text="Purchased Items"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +35,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/pink">
 
 
             <TextView
@@ -42,11 +44,11 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/textboxsmall"
+                android:background="@drawable/whitecoloredbox"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="Medicine"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15dp" />
 
             <TextView
@@ -54,11 +56,11 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/textboxsmall"
+                android:background="@drawable/whitecoloredbox"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="Medicine"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15dp" />
 
             <TextView
@@ -66,11 +68,11 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/textboxsmall"
+                android:background="@drawable/whitecoloredbox"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="Medicine"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15dp" />
 
             <TextView
@@ -78,11 +80,11 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/textboxsmall"
+                android:background="@drawable/whitecoloredbox"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="Medicine"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15dp" />
 
             <TextView
@@ -90,11 +92,11 @@
                 android:layout_height="150dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="50dp"
-                android:background="@drawable/textboxsmall"
+                android:background="@drawable/whitecoloredbox"
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp"
                 android:text="Medicine"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="15dp" />
 
 
