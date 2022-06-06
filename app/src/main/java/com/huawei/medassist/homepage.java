@@ -17,4 +17,9 @@ public class homepage extends AppCompatActivity {
         Intent intent = new Intent (this, accountpage.class);
         startActivity(intent);
     }
+    public void searchWindow(View view2)
+    {
+        Intent search=new Intent(this,resultspage.class);
+        startActivity(search);
+    }
 }
