@@ -30,6 +30,7 @@
         android:text="Medicine Name"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -45,11 +46,13 @@
         android:text="DESCRIPTION"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="413dp"
         android:layout_height="328dp"
         android:layout_marginStart="1dp"
@@ -63,17 +66,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="350dp"
                 android:layout_height="500dp"
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/textbox"
-                android:paddingTop="30dp"
                 android:paddingLeft="30dp"
-                android:textColor="@color/white"
-                android:textSize="15dp"
+                android:paddingTop="30dp"
                 android:text="The details about medicine\nThe medicine
 is used for the following purpose...
 ........................\n................................\n..
@@ -86,7 +87,27 @@ is used for the following purpose...
 ........................\n
 .........................\n
 .........................\n
-.........................\n" />
+.........................\n"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="69dp"
+        android:backgroundTint="@color/red"
+        android:text="PURCHASE"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="purchaseW"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

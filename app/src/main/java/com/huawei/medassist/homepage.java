@@ -22,4 +22,14 @@ public class homepage extends AppCompatActivity {
         Intent search=new Intent(this,resultspage.class);
         startActivity(search);
     }
+    public void cartLibrary(View view3)
+    {
+        Intent cartl=new Intent(this,cartlist.class);
+        startActivity(cartl);
+    }
+    public void savedLibrary(View view5)
+    {
+        Intent lb=new Intent(this,library.class);
+        startActivity(lb);
+    }
 }

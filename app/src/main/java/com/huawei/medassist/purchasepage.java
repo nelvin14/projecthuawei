@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class resultspage extends AppCompatActivity {
+public class purchasepage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultspage);
+        setContentView(R.layout.activity_purchasepage);
     }
-    public void purchaseW(View view4)
+    public void toPurchaseitems(View view7)
     {
-        Intent cart=new Intent(this,purchasepage.class);
-        startActivity(cart);
+        Intent buyintent=new Intent(this,cartlist.class);
+        startActivity(buyintent);
     }
 }
