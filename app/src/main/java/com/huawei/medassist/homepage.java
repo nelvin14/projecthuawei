@@ -32,4 +32,9 @@ public class homepage extends AppCompatActivity {
         Intent lb=new Intent(this,library.class);
         startActivity(lb);
     }
+    public void toMappage(View view8)
+    {
+        Intent mapintent=new Intent(this,mappage.class);
+        startActivity(mapintent);
+    }
 }
