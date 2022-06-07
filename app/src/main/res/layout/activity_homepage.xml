@@ -54,17 +54,14 @@
         android:layout_height="80dp"
         android:layout_marginStart="71dp"
         android:layout_marginTop="320dp"
-        android:layout_marginEnd="70dp"
         android:layout_marginBottom="37dp"
         android:background="@drawable/cornerround"
+        android:onClick="cartLibrary"
         android:src="@drawable/cartsymbol"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toStartOf="@+id/scanbutton"
-        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:onClick="cartLibrary"/>
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/scanbutton"
